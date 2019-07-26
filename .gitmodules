@@ -1,0 +1,3 @@
+[submodule "WeatherFromWeb-cpp"]
+	path = WeatherFromWeb-cpp
+	url = https://github.com/luiza177/WeatherFromWeb-cpp.git
