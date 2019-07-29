@@ -15,10 +15,12 @@ void WeatherData::registerObserver(IObserver* obs)
 {
     m_observers.insert(obs);
 }
+
 void WeatherData::removeObserver(IObserver* obs)
 {
     m_observers.erase(obs);
 }
+
 void WeatherData::notifyObservers()
 {
     for(auto obs : m_observers) 

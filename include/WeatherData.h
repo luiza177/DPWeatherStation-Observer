@@ -10,8 +10,8 @@ class WeatherData : public ISubject
 private:
     std::set<IObserver*> m_observers;
     double m_temperature, m_humidity, m_pressure;
-public:
     WeatherFromWeb* m_weatherStation;
+public:
     WeatherData();
     virtual ~WeatherData();
 
